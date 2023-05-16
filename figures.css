@@ -1,0 +1,15 @@
+@media (max-width: 25em) {
+    table, caption, tbody, tr, th, td {
+      display: block;
+      text-align: left;
+    }
+    thead, th:empty, td:empty {
+      display: none;
+      visibility: hidden;
+    }
+    th[data-title]:before, td[data-title]:before {
+      content: attr(data-title) ": ";
+      display: inline-block;
+      width: 3.5em;
+    }
+  }

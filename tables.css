@@ -1,0 +1,26 @@
+table{
+    table-layout: fixed;
+    border: 1px solid gray;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-collapse: collapse;
+}
+tr:nth-child(even) {
+    background-color: #eee;
+}
+th,td {
+    padding: 0.3em;
+}
+.numbers{
+    text-align: right;
+}
+
+.num-albums, .year {
+    width:15%;
+}
+.most-famous-song {
+    width:40%;
+}
+.band-name {
+    width:30%;
+}

@@ -5,48 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tables CSS</title>
-    <link href="style.css" rel="stylesheet" />
+    <link
+  href="https://fonts.googleapis.com/css?family=Rock+Salt"
+  rel="stylesheet"
+  type="text/css" />
+    <link href="tables.css" rel="stylesheet" />
 </head>
 <body>
     <table>
-        <caption>
-          A summary of the UK's most famous punk bands
-        </caption>
+        <caption>A summary of the UK's most famous punk bands</caption>
         <thead>
           <tr>
-            <th scope="col">Band</th>
-            <th scope="col">Year formed</th>
-            <th scope="col">No. of Albums</th>
-            <th scope="col">Most famous song</th>
+            <th class="band-name" scope="col">Band</th>
+            <th class="year numbers" scope="col">Year formed</th>
+            <th class="num-albums numbers" scope="col">No. of Albums</th>
+            <th scope="most-famous-song col">Most famous song</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <th scope="row">Buzzcocks</th>
-            <td>1976</td>
-            <td>9</td>
+            <td class="numbers">1976</td>
+            <td class="numbers">9</td>
             <td>Ever fallen in love (with someone you shouldn't've)</td>
           </tr>
           <tr>
             <th scope="row">The Clash</th>
-            <td>1976</td>
-            <td>6</td>
+            <td class="numbers">1976</td>
+            <td class="numbers">6</td>
             <td>London Calling</td>
           </tr>
-      
-          <!-- several other great bands -->
-      
+          <tr>
+            <th scope="row">The Damned</th>
+            <td class="numbers">1976</td>
+            <td class="numbers">10</td>
+            <td>Smash it up</td>
+          </tr>
+          <tr>
+            <th scope="row">Sex Pistols</th>
+            <td class="numbers">1975</td>
+            <td class="numbers">1</td>
+            <td>Anarchy in the UK</td>
+          </tr>
+          <tr>
+            <th scope="row">Sham 69</th>
+            <td class="numbers">1976</td>
+            <td class="numbers">13</td>
+            <td>If the kids are united</td>
+          </tr>
+          <tr>
+            <th scope="row">Siouxsie and the Banshees</th>
+            <td class="numbers">1976</td>
+            <td class="numbers">11</td>
+            <td>Hong Kong Garden</td>
+          </tr>
+          <tr>
+            <th scope="row">Stiff Little Fingers</th>
+            <td class="numbers">1977</td>
+            <td class="numbers">10</td>
+            <td>Suspect Device</td>
+          </tr>
           <tr>
             <th scope="row">The Stranglers</th>
-            <td>1974</td>
-            <td>17</td>
+            <td class="numbers">1974</td>
+            <td class="numbers">17</td>
             <td>No More Heroes</td>
           </tr>
         </tbody>
         <tfoot>
           <tr>
             <th scope="row" colspan="2">Total albums</th>
-            <td colspan="2">77</td>
+            <td colspan="2" class="numbers">77</td>
           </tr>
         </tfoot>
       </table>
